@@ -1,0 +1,14 @@
+body {
+    /* border:solid green 2px; */
+    background: url("../../images/blue.jpg") no-repeat center center fixed;
+    /* background-repeat: no-repeat; */    
+    /* background-position: fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+
