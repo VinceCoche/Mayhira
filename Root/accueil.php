@@ -16,7 +16,6 @@
 
         <!-- Contenu du Body de l'accueil-->
             <?php include("includes/accueil/accueilbody.php");?>
-            <?php include("includes/accueil/accueilJS.php");?>
         <!-- Fin du Contenu du Body de l'accueil-->
     </body>
 

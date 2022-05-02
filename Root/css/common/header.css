@@ -1,6 +1,8 @@
 header {
     border: 2px solid darkgray;
     /* border: 2px solid red; */
+    /* position: relative; */
+    /* left: -2px; */
     color: rgb(255,165,0);
     font-weight: bold;
     background: linear-gradient(90deg, rgba(214,214,214,1) 0%, rgba(255,255,255,1) 50%, rgba(214,214,214,1) 100%);

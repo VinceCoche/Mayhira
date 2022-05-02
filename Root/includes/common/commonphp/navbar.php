@@ -1,6 +1,4 @@
-<navbar>
-
-
+<navbar id="navbar">
     <div id="hamburger">
         <span class="barre"></span>
         <span class="barre"></span>

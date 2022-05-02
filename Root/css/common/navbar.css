@@ -9,7 +9,12 @@
     margin-top: 3em;
     display: inline-block;
     /* vertical-align: middle; */
-    z-index: 100;
+    z-index: 2;
+    position: absolute;
+}
+
+#navbar {
+    z-index: 3;
 }
 
 .navlink {
@@ -97,12 +102,17 @@
     background: linear-gradient(90deg, rgb(177, 176, 176) 0%, lightgrey 50%, white 100%);
 }
 
+#hamburger:focus {
+    background: linear-gradient(90deg, white 100%, lightgrey 50%, rgb(177, 176, 176) 0%);
+    border: solid grey 4px;
+}
+
 .barre {
     background: black;
-    display: block;
+    display: flex;
     width: 25px;
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;    
 }
