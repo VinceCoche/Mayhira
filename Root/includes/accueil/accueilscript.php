@@ -5,7 +5,7 @@
             die('Erreur: '.$e->getMessage());
         }
 
-        $accueilAnim = $bdd->query('SELECT accueil_msg AS msg FROM accueilanim ORDER BY id');
+        $accueilAnim = $bdd->query('SELECT id, accueil_msg AS msg FROM accueilanim ORDER BY id');
 
         while ($message = $accueilAnim->fetch()) {
             ?>
@@ -17,7 +17,7 @@
 ?>
 
 <script>
-    var accueilBase = 100;
+    var accueilBase = 1000;
     var accueilFade = accueilBase*3;
     var accueilAnima = accueilBase*7;
 

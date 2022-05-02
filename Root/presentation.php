@@ -16,7 +16,8 @@
     
 
         <!-- Contenu du Body de la présentation-->
-        <?php include("includes/presentation/presentationbody.php");?>
+            <?php include("includes/presentation/presentationbody.php");?>
+            <?php include("includes/presentation/presentationscript.php");?>
         <!-- Fin du Contenu du Body de la présentation-->
     </body>
 </html>
