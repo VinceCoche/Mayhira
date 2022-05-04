@@ -35,7 +35,7 @@
 
         <a href="contact.php" class="navlink">
             <div class="navcell navcelltarif">
-                Consultation sur rendez-vous au 07 50 58 87 05 
+                Consultation sur rendez-vous au <br> 07 50 58 87 05 
             </div>
         </a>
 

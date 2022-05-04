@@ -54,14 +54,14 @@
 .navlink:hover {
     transition: 0.4s;
     background: linear-gradient(90deg, rgba(214,214,214,1) 0%, rgba(255,255,255,1) 50%, rgba(214,214,214,1) 100%);
-    border-top: solid rgb(255,165,0) 2px;
-    border-bottom: solid rgb(255,165,0) 2px;
+    border-top: solid rgb(255,165,0) 3px;
+    border-bottom: solid rgb(255,165,0) 3px;
 }
 
 .navcell:hover {
     transition: 0.4s;
-    border-top: solid rgb(255,165,0) 2px;
-    border-bottom: solid rgb(255,165,0) 2px;
+    border-top: solid rgb(255,165,0) 3px;
+    border-bottom: solid rgb(255,165,0) 3px;
 }
 
 .navcelltarif, .navcellresume {

@@ -13,7 +13,7 @@
 }
 
 #accueilpiccenter{
-    border: solid orange 3px;
+    /* border: solid orange 3px; */
     width: fit-content;
     display: inline-block;
     justify-self: center;
@@ -27,7 +27,10 @@
     left: 60%;
     z-index: 3;
     width: 10em;
-    display: none;
+    /* display: none; */
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 img {
