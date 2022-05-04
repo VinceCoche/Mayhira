@@ -27,10 +27,11 @@
     left: 60%;
     z-index: 3;
     width: 10em;
-    /* display: none; */
+    display: none;
     color: red;
     font-weight: bolder;
     font-size: larger;
+    /* text-transform: uppercase; */
 }
 
 img {
